@@ -2,37 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rachel's Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Rachel's Photo Gallery</h1>
-      <nav>
+      <h1>Photo Gallery</h1>
+      <nav aria-label="Primary">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="gallery.html" aria-current="page">Gallery</a>
       </nav>
     </header>
 
-    <main>
-      <section>
-        <div>
-          <img src="/images/" alt="Rachel Placeholder" />
-        </div>
-        <div>
-          <img src="/images/" alt="Rachel Placeholder" />
-        </div>
-        <div>
-          <img src="/images/" alt="Rachel Placeholder" />
-        </div>
-        <div>
-          <img src="/images/" alt="Rachel Placeholder" />
-        </div>
+    <main class="container">
+      <section class="grid">
+        <figure>
+          <img
+            src="https://placedog.net/600/400?id=1"
+            alt="Rachel relaxing on the couch (placeholder)"
+          />
+          <figcaption>Relaxing on the couch</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://placedog.net/600/400?id=2"
+            alt="Rachel exploring the backyard (placeholder)"
+          />
+          <figcaption>Exploring the backyard</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://placedog.net/600/400?id=3"
+            alt="Rachel napping in her favorite spot (placeholder)"
+          />
+          <figcaption>Favorite nap spot</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://placedog.net/600/400?id=4"
+            alt="Rachel ready for a walk (placeholder)"
+          />
+          <figcaption>Ready for a walk</figcaption>
+        </figure>
       </section>
     </main>
 
     <footer>
-      <p>&copy; Rachel's Website</p>
+      <p>&copy; 2025 Rachel's Website</p>
     </footer>
   </body>
 </html>

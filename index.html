@@ -2,31 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rachel's Website — Home</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <h1>Rachel's Website</h1>
-      <nav>
-        <a href="index.html">Home</a>
+      <nav aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
         <a href="about.html">About</a>
         <a href="gallery.html">Gallery</a>
       </nav>
     </header>
 
-    <main>
+    <main class="container">
       <section>
-        <img src="/images/" alt="Rachel Placeholder" />
+        <img
+          src="https://placedog.net/1200/500?id=42"
+          alt="Rachel the black lab relaxing on a couch (placeholder)"
+        />
         <p>
-          Hello! My name is Rachel, and welcome to my website! This is the place
-          where you can learn all about me, what I love, my quirks, and see some
-          of my best pictures!
+          Hello! My name is <strong>Rachel</strong>. This is where you can learn
+          about me—my favorite things, quirks, and see some of my best pictures.
         </p>
       </section>
     </main>
 
     <footer>
-      <p>&copy; Rachel's Website</p>
+      <p>&copy; 2025 Rachel's Website</p>
     </footer>
   </body>
 </html>
