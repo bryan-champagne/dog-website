@@ -4,7 +4,7 @@ A simple personal website about my dog, Rachel. Built for **COMP 5130 – Intern
 
 ## Live Site
 
-👉 [View on GitHub Pages](https://bryan-champagne.github.io/dog-website/)
+[View on GitHub Pages](https://bryan-champagne.github.io/dog-website/)
 
 ## Purpose
 
